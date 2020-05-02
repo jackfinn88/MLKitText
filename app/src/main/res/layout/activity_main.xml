@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.jfinn.mlkittext.camera.CameraSourcePreview
+        android:id="@+id/camera_source_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.jfinn.mlkittext.misc.GraphicOverlay
+            android:id="@+id/graphics_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.jfinn.mlkittext.camera.CameraSourcePreview>
+
+    <ImageButton
+        android:id="@+id/button_capture"
+        android:src="@drawable/ic_photo_camera_black_24dp"
+        android:text="@string/capture_button"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/capture_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button_gallery" />
+    <ImageButton
+        android:id="@+id/button_gallery"
+        android:src="@drawable/ic_photo_black_24dp"
+        android:text="@string/gallery_button"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/gallery_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/button_capture"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Splash theme -->
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Textract</string>
+    <string name="select_image_for_text_recognition">Select image for text recognition</string>
+    <string name="find_text_button">Find text</string>
+    <string name="capture_button">Capture</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="extracted_text_button">View Text</string>
+    <string name="view_main_button">View Main</string>
+    <string name="copy_text_button">Copy Text</string>
+    <string name="share_text_button">Share Text</string>
+    <string name="info_button">About</string>
+
+    <string name="info_about">Textract uses Firebase\'s Machine Learning Kit to recognise text in images.\n\n</string>
+    <string name="info_real_time">Tap the highlighted areas to copy text to clipboard.\n\n</string>
+    <string name="info_capture">Use your device camera to capture and process an image.\n\n</string>
+    <string name="info_gallery">Extract text from an existing image or photo.\n\n</string>
+    <string name="info_issues">ISSUES:\n-Capturing images while in landscape mode intermittently crashes app.\n\n</string>
+    <string name="info_author">Jack Finn, 16832245\nUniversity of Brighton\n\n</string>
+</resources>

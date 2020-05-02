@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "9032560220",
+    "firebase_url": "https://mlkittext-10d10.firebaseio.com",
+    "project_id": "mlkittext-10d10",
+    "storage_bucket": "mlkittext-10d10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9032560220:android:cf184e532a301a6c858099",
+        "android_client_info": {
+          "package_name": "com.jfinn.mlkittext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9032560220-vus0lb8snbcf71m1tjjsllmqt2iitm1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTSKop7rIggVRYiJTwdIJwdAJEmMZMl_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9032560220-vus0lb8snbcf71m1tjjsllmqt2iitm1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
